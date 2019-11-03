@@ -7,5 +7,5 @@ install:
 
 build_script:
   - cd extension\php7
-  - cmd /c C:\build\phpsdk-vc15-x64.bat -t C:\projects\php-meminfo\build.bat
+  - cmd /c C:\build\phpsdk-vc15-x64.bat -t C:\projects\php-meminfo\appveyor\build.bat
   - dir
