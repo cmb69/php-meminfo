@@ -4,6 +4,9 @@ install:
   - git clone --branch php-sdk-2.2.0 https://github.com/Microsoft/php-sdk-binary-tools C:\build
   - curl -fsS -o php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip https://windows.php.net/downloads/releases/php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip
   - 7z x php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip
+  - curl -fsS -o php-7.3-nts-Win32-VC15-x64-latest.zip https://windows.php.net/downloads/releases/latest/php-7.3-nts-Win32-VC15-x64-latest.zip
+  - 7z x -ophp-7.3-nts-Win32-VC15-x64 php-7.3-nts-Win32-VC15-x64-latest.zip
+  - dir php-7.3-nts-Win32-VC15-x64-latest
 
 build_script:
   - cd extension\php7
