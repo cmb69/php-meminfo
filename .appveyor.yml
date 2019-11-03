@@ -3,4 +3,6 @@ image: Visual Studio 2017
 install:
   - curl -fsS -o php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip https://windows.php.net/downloads/releases/php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip
   - 7z x php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip
+  - cd extension\php7
+  - C:\projects\php-meminfo\php-7.3.11-devel-VC15-x64\phpize
   - dir
