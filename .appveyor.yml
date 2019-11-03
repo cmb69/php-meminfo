@@ -6,7 +6,7 @@ install:
   - 7z x php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip
   - curl -fsS -o php-7.3-nts-Win32-VC15-x64-latest.zip https://windows.php.net/downloads/releases/latest/php-7.3-nts-Win32-VC15-x64-latest.zip
   - 7z x -ophp-7.3-nts-Win32-VC15-x64 php-7.3-nts-Win32-VC15-x64-latest.zip
-  - dir php-7.3-nts-Win32-VC15-x64-latest
+  - dir php-7.3-nts-Win32-VC15-x64
 
 build_script:
   - cd extension\php7
