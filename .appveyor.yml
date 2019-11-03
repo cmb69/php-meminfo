@@ -1,0 +1,5 @@
+image: Visual Studio 2017
+
+install:
+  - ps: (new-object net.webclient).DownloadFile('https://windows.php.net/downloads/releases/php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip', 'php-devel-pack-7.3.11-nts-Win32-VC15-x64.zip')
+  - dir
